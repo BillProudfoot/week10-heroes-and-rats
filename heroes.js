@@ -1,12 +1,12 @@
-function Hero(name, health, favfood ){
-  this.name = name;
-  this.health = health;
-  this.favfood = favfood;
+var Hero = function(options){
+  this.name = options.name;
+  this.health = options.health;
+  this.favfood = options.favfood;
 }
 
-Hero.prototype = {
+// Hero.prototype = {
 
-}
+// }
 
 module.exports = Hero;
 
