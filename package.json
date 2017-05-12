@@ -1,0 +1,15 @@
+{
+  "name": "heroes_rats",
+  "version": "1.0.0",
+  "main": ".gitignore.js",
+  "scripts": {
+    "test": "mocha scripts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.3.0"
+  },
+  "dependencies": {},
+  "description": ""
+}
