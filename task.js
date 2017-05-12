@@ -2,7 +2,7 @@ function Task(difficulty, urgency, reward, isDone){
   this.difficulty = difficulty;
   this.urgency = urgency;
   this.reward = reward;
-  this.isDone = isDone;
+  this.isDone = isDone || false;
 }
 
 

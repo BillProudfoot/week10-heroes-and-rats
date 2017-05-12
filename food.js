@@ -1,10 +1,11 @@
-function Food(foodName, replenishment){
-  this.foodName = foodName;
-  this.replenishment = replenishment;
+var Food = function (options){
+  this.foodName = options.foodName;
+  this.replenishment = options.replenishment;
 }
 
 
-mocha.exports = Food;
+
+module.exports = Food;
 
 
 
