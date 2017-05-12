@@ -1,8 +1,9 @@
-function Task(difficulty, urgency, reward, isDone){
-  this.difficulty = difficulty;
-  this.urgency = urgency;
-  this.reward = reward;
-  this.isDone = isDone || false;
+var Task = function(options){
+  this.todo = options.todo;
+  this.difficulty = options.difficulty;
+  this.urgency = options.urgency;
+  this.reward = options.reward;
+  this.isDone = options.isDone || false;
 }
 
 
