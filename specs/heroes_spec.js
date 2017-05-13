@@ -21,6 +21,14 @@ describe('Hero', function() {
     assert.strictEqual('Chicken', hero.favfood)
   })
 
+  it ('should say name', function (){
+    var hero = new Hero({name: 'Superman', health: 2, favfood: 'Cheese'});
+    hero.name;
+    assert.strictEqual('Superman', hero.name);
+  })
+
+  
+
   // body...
 })
 
