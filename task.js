@@ -6,6 +6,10 @@ var Task = function(options){
   this.isDone = options.isDone || false;
 }
 
+this.hasBeenDone = function(task){
+  task.isDone = true;
+  return task.isDone;
+}
 
 module.exports = Task;
 

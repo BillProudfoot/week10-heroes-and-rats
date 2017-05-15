@@ -4,9 +4,15 @@ var Hero = function(options){
   this.favfood = options.favfood;
 }
 
-// Hero.prototype = {
-
-// }
+Hero.prototype = { 
+  eatFood: function (food){
+    var multiplier = 1;
+    if(food.foodName === this.favfood){
+      multiplier = 1.5;
+    }
+    return this.health = this.health += (food.replenishment * multiplier);
+  }
+};
 
 module.exports = Hero;
 
