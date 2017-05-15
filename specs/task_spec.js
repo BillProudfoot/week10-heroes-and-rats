@@ -47,11 +47,11 @@ describe('Task', function() {
     assert.strictEqual(false, task4.isDone);
   });
 
-  // it('has been changed to is done', function(){
-  //   task.hasBeenDone(task1);
-  //   assert.strictEqual(true, task1.isDone);
+  it('has been changed to is done', function(){
+    task1.hasBeenDone(task1);
+    assert.strictEqual(true, task1.isDone);
 
-  // });
+  });
 
 
 

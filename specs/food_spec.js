@@ -3,7 +3,10 @@ var Food = require('../food.js');
 
 describe('Food', function() {
 
-  var food;
+  var food1;
+  var food2;
+  var food3;
+  var food4;
 
   beforeEach (function (){
     food1 = new Food({ foodName: 'Apple', replenishment: 1});
